@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function triangulo(height){
+        for (var i = 1; i <= height; i++){
+            var line = " ";
+            for (var stars = 1; stars <= i; stars++){
+                line += "* ";
+            }
+            console.log(line);
+        }
+      }
+      var height = +prompt("insert a triangulo height");
+      triangulo(height);
+    </script>
+</body>
+</html>
